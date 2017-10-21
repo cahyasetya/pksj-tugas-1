@@ -1,4 +1,9 @@
 # Tugas 1 Uji Penetrasi 1
+## Instalasi Virtual Box
+1. Install virtual box
+![installvirtualbox](intsall-virtual-box.png)  
+Jalankan code tersebut pada terminal anda. Namun, sebelumnya run command **sudo apt-get update** terlebih dahulu
+
 ## Instalasi Ubuntu Server
 1. Memberi Nama Virtual Mesin  
 ![memberi nama](1.ubuntu-server-memberi-nama.png)
@@ -24,7 +29,7 @@ klik **Start** untuk memulain instalasi
 
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
-![memberi nama](langkah 2.png)  
+![memberi nama](langkah-2.png)  
 
 2. Mengalokasikan Memori untuk Virtual Mesin
 ![mengalokasikan memori](langkah-3.png)
@@ -44,4 +49,35 @@ klik **Start** untuk memulain instalasi
 7. Virtual Mesin telah Ditambahkan
 ![virtual mesin ditambahkan](langkah-1.png)
 
-2. wew
+8. Menambahkan disk file ke Virtual Mesin  
+![menambahkan disk file](langkah-9.png)  
+
+9. Memulai Instalasi Ubuntu Desktop di Virtual Mesin
+![memulai instalasi ubuntu desktop](langkah-11.png)  
+Klik **Install Ubuntu** untuk memulai instalasi
+
+10. Persiapan Instalasi
+![persiapan instalasi](langkah-12.png)  
+
+11. Memilih jenis instalasi  
+![memilih jenis instalasi](langkah-13.png)  
+
+12. Membuat perubahan pada disk yang ingin diinstall  
+![buat perubahan pada disk](langkah-14.png)  
+
+13. Memilih Zona Waktu
+![pilih zona waktu](langkah-15.png)  
+
+14. Mengidentifikasi keyboard layout
+![identifikasi keyboard](langkah-16.png)
+
+15. Mengisikan username dan password
+![isi username dan password](langkah-17.png)
+
+16. Proses Instalasi  
+![instalasi](langkah-18.png)  
+Tunggu hingga proses instalasi selesai.
+
+17. Reboot
+![reboot](langkah-19.png)
+Setelah proses instalasi selesai, reboot dan ubuntu desktop siap digunakan.
