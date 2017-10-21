@@ -25,3 +25,4 @@ klik **Start** untuk memulain instalasi
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
 ![memberi nama](langkah 2.png)  
+2. wew
