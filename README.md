@@ -24,4 +24,22 @@ klik **Start** untuk memulain instalasi
 
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
-![memberi nama](langkah 2.png)  
+![memberi nama](langkah-2.png)  
+
+2. Mengalokasikan Memori untuk Virtual Mesin
+![mengalokasikan memori](langkah-3.png)
+
+3. Membuat Virtual Hardisk  
+![membuat virtual hardisk](langkah-4.png)
+
+4. Memilih Tipe Virtual Hardisk
+![memilih virtual hardisk](langkah-5.png)
+
+5. Mengalokasikan Storage
+![mengalokasikan storage](langkah-6.png)
+
+6. Memilih Mekanisme Alokasi Storage
+![mekanisme alokasi storage](langkah-7.png)
+
+7. Virtual Mesin telah Ditambahkan
+![virtual mesin ditambahkan](langkah-1.png)
