@@ -2,7 +2,7 @@
 ## Instalasi Virtual Box
 1. Install virtual box
 ![installvirtualbox](intsall-virtual-box.png)  
-Jalankan code tersebut pada terminal anda. Namun, sebelumnya run command **sudo apt-get update** terlebih dahulu
+Jalankan code tersebut pada terminal anda. Namun, sebelumnya run command **sudo apt-get update** terlebih dahulu. lalu jalankan **sudo apt-get install virtualbox**.
 
 ## Instalasi Ubuntu Server
 1. Memberi Nama Virtual Mesin  
@@ -40,8 +40,8 @@ klik **Start** untuk memulain instalasi
 4. Memilih Tipe Virtual Hardisk
 ![memilih virtual hardisk](langkah-5.png)
 
-5. Mengalokasikan Storage
-![mengalokasikan storage](langkah-6.png)
+5. Mengalokasikan Storage  
+![mengalokasikan storage](langkah-6.png)  
 
 6. Memilih Mekanisme Alokasi Storage
 ![mekanisme alokasi storage](langkah-7.png)
@@ -81,3 +81,10 @@ Tunggu hingga proses instalasi selesai.
 17. Reboot
 ![reboot](langkah-19.png)
 Setelah proses instalasi selesai, reboot dan ubuntu desktop siap digunakan.
+
+## Uji Penetrasi Ubuntu Desktop
+1. Install Open SSH server  
+![installopenssh](intsalasi-openssh-server.png)  
+Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jalankan **sudo apt-get update** terlerbih dahulu. Lalu jalankan **sudo apt-get install openssh-server**
+ 
+2. Install Hydra pada komputer 
