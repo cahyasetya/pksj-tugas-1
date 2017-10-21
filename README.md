@@ -21,3 +21,7 @@
 7. Virtual Mesin telah Ditambahkan
 ![virtual mesin ditambahkan](40.virtual-mesin-created.png)  
 klik **Start** untuk memulain instalasi
+
+## Instalasi Ubuntu Desktop
+1. Memberi Nama Virtual Mesin  
+![memberi nama](langkah 2.png)  
