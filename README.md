@@ -17,7 +17,7 @@ Jalankan code tersebut pada terminal anda. Namun, sebelumnya run command **sudo 
 4. Memilih Tipe Virtual Hardisk
 ![memilih virtual hardisk](4.ubuntu-server-virtual-hdd-type.png)
 
-5. Mengalokasikan Storage
+5. Mengalokasikan Storage  
 ![mengalokasikan storage](5.ubuntu-server-alokasi-storage.png)
 
 6. Memilih Mekanisme Alokasi Storage
@@ -25,7 +25,45 @@ Jalankan code tersebut pada terminal anda. Namun, sebelumnya run command **sudo 
 
 7. Virtual Mesin telah Ditambahkan
 ![virtual mesin ditambahkan](40.virtual-mesin-created.png)  
-klik **Start** untuk memulain instalasi
+klik **Start** untuk memulai instalasi
+
+8. Pilih Image untuk Install Ubuntu Server  
+![pilih image startup](7.ubuntu-server-select-startuphdd.png)
+
+9. Pilih Bahasa untuk Menu Instalasi Ubuntu   
+![pilih bahasa statup](8.ubuntu-server-pilih-bahasa-setup.png)
+
+10. Pilih Menu Install Ubuntu Server  
+![install ubuntu](9.ubuntu-server-pilih-install.png)
+
+11. Pilih Bahasa untuk Ubuntu yang Kita Install
+![pilih bahasa ubuntu](10.ubuntu-server-pilih-bahasa.png)
+
+12. Pilih Lokasi
+    1. Pilih Other
+    ![pilih other](11.ubuntu-server-select-location-other.png)
+    2. Pilih Asia
+    ![pilih asia](12.ubuntu-server-select-location-asia.png)
+    3. Pilih Indonesia
+    ![pilih indonesia](13.ubuntu-server-select-location-indonesia.png)
+    
+13. Pilih Locale
+![pilih locale](14.ubuntu-server-select-locale.png)
+
+14. Pilih Keyboard
+    1. Konfigurasi Keyboard
+    ![pilih negara keyboard](15.ubuntu-server-configure-keyboard.png)
+    Kita dapat menggunakan pilihan deteksi otomatis dengan memilih **yes**. Dalam instalasi ini kita akan memilih keyboard yang sudah ada maka kita memilih **no**.
+    2. Pilih Negara Asal Keyboard
+    ![pilih layout keyboard](16.ubuntu-server-configure-keyboard-us.png)
+    3. Pilih Layout Keyboard
+    ![pilih layout keyboard](17.ubuntu-server-configure-keyboard-layout.png)
+15. Isi Hostname untuk Ubuntu Server Kita  
+![pilih hostname](18.ubuntu-server-select-hostname.png)
+16. Isi User Baru Ubuntu Server
+![isi user](19.ubuntu-server-select-user.png)
+17. Isi Username untuk User yang Baru Kita Buat
+![isi username](20.ubuntu-server-select-username.png)
 
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
