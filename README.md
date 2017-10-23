@@ -58,12 +58,31 @@ klik **Start** untuk memulai instalasi
     ![pilih layout keyboard](16.ubuntu-server-configure-keyboard-us.png)
     3. Pilih Layout Keyboard
     ![pilih layout keyboard](17.ubuntu-server-configure-keyboard-layout.png)
+
 15. Isi Hostname untuk Ubuntu Server Kita  
 ![pilih hostname](18.ubuntu-server-select-hostname.png)
+
 16. Isi User Baru Ubuntu Server
 ![isi user](19.ubuntu-server-select-user.png)
+
 17. Isi Username untuk User yang Baru Kita Buat
 ![isi username](20.ubuntu-server-select-username.png)
+
+18. Isi Password untuk User yang Baru
+![isi password](21.ubuntu-server-select-password.png)
+
+19. Konfimarasi Password Baru
+![konfirmasi password]()
+
+20. Apabila Password yang Kita Isikan Lemah, Kita Akan Mendapatkan Peringatan
+![konfirmasi password lemah](23.ubuntu-server-konfirmasi-weak-pass.png)
+
+21. Pilih Apakah Kita Ingin Mengenkripsi Folder Home atau Tidak
+![enkripsi home](24.ubuntu-server-encrypt-home.png)
+Dalam instalasi kali ini pilih **no**.
+
+22. Konfirmasi Pengaturan Waktu Ubuntu Server
+![pengaturan waktu](25.ubuntu-server-configure-clock.png)
 
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
