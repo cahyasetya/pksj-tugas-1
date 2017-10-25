@@ -177,9 +177,28 @@ Tunggu hingga proses instalasi selesai.
 ![reboot](langkah-19.png)
 Setelah proses instalasi selesai, reboot dan ubuntu desktop siap digunakan.
 
-## Instalasi Penguji
-1. Install Open SSH server  
+## Install Open SSH server  
 ![installopenssh](intsalasi-openssh-server.png)  
 Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jalankan **sudo apt-get update** terlerbih dahulu. Lalu jalankan **sudo apt-get install openssh-server**
- 
-2. Install Hydra pada komputer 
+
+## Instalasi Tools Penetrasi
+1. Install Hydra pada komputer
+![install hydra](install-hydra.png)
+
+2. Install Ncrack
+
+## Uji Penetrasi 1
+1. Lakukan instalasi tools penetrasi
+2. Download wordlist. Wordlist adalah daftar kata-kata yang kita gunakan untuk untuk melakukan bruteforce. Daftar kata-kata tersebut nantinya akan bertindak sebagai password.
+3. Lakukan pengujian penetrasi
+    ### Penetrasi Ubuntu Server
+    1. Menggunakan Hydra
+    ![hasil hydra ubuntu server](hasil-hydra-ubuntu-server.png)
+    2. Menggunakan Ncrack
+    ![hasil ncrack ubuntu server](hasil-ncrack-ubuntu-server.png)
+    ### Penetrasi Ubuntu Desktop
+    1. Menggunakan Hydra
+    ![hasil hydra ubuntu desktop](hasil-hydra-ubuntu-desktop.png)
+    2. Menggunakan Ncrack
+    ![hasil ncrack ubuntu desktop](hasil-ncrack-ubuntu-desktop.png)
+    
