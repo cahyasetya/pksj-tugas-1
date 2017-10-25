@@ -200,5 +200,5 @@ Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jal
     1. Menggunakan Hydra
     ![hasil hydra ubuntu desktop](hasil-hydra-ubuntu-desktop.png)
     2. Menggunakan Ncrack
-    ![hasil ncrack ubuntu dektop](hasil-ncrack-ubuntu-desktop.png)
+    ![hasil ncrack ubuntu desktop](hasil-ncrack-ubuntu-dektop.png)
     
