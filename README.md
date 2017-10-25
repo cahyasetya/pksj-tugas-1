@@ -1,4 +1,4 @@
-# Tugas 1 Uji Penetrasi 1
+# Tugas 1
 ## Instalasi Virtual Box
 1. Install virtual box
 ![installvirtualbox](intsall-virtual-box.png)  
@@ -83,6 +83,31 @@ Dalam instalasi kali ini pilih **no**.
 
 22. Konfirmasi Pengaturan Waktu Ubuntu Server
 ![pengaturan waktu](25.ubuntu-server-configure-clock.png)
+
+23. Konfigurasi Partisi  
+![konfigurasi partisi](26.ubuntu-server-partitioning-disk.png)
+Pada section ini kita memilih konfigurasi partisi. Kita pilih pilihan kedua jika tidak ingin mengkonfigurasi manual.
+
+24. Memilih disk untuk partisi  
+![memilih disk partisi](27.ubuntu-server-pilih-pratisi.png)
+
+25. Konfirmasi Konfigurasi Partisi  
+![konfirmasi partisi](28.ubuntu-server-konfiramsi-partisi.png)
+
+26. Setting Ukuran Partisi
+![setting ukuran partisi](29.ubuntu-server-partition-size.png)
+
+27. Konfirmasi Partisi  
+![konfirmasi partisi](30.ubuntu-server-konfirmasi-partition.png)
+
+28. Instalasi Akan Berjalan  
+![intallasi berjalan](31.ubuntu-server-installing.png)
+
+29. Konfigurasi Proxy
+![konfigurasi proxy](32.ubuntu-server-setup-proxy.png)
+
+30. Instalasi Akan Melakukan Setup Apt
+![melakukan setup apt](33.ubuntu-server-configure-apt.png)
 
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
