@@ -109,6 +109,19 @@ Pada section ini kita memilih konfigurasi partisi. Kita pilih pilihan kedua jika
 30. Instalasi Akan Melakukan Setup Apt
 ![melakukan setup apt](33.ubuntu-server-configure-apt.png)
 
+31. Pilih Software yang Ingin Diinstal  
+![software selection](software-selection.png)
+
+32. Instalasi Grub
+![instalasi grub](35.ubuntu-server-install-grub.png)
+
+33. Instalasi Selesai
+![instalasi selesai](36.ubuntu-server-installation-complete.png)
+
+34. Ubuntu Menyelesaikan Instalasi
+![ubuntu menyelesaikan instalasi](37.ubuntu-server-finishing-installation.png)
+**Instalasi Selesai.**
+
 ## Instalasi Ubuntu Desktop
 1. Memberi Nama Virtual Mesin  
 ![memberi nama](langkah-2.png)  
@@ -164,7 +177,7 @@ Tunggu hingga proses instalasi selesai.
 ![reboot](langkah-19.png)
 Setelah proses instalasi selesai, reboot dan ubuntu desktop siap digunakan.
 
-## Uji Penetrasi Ubuntu Desktop
+## Instalasi Penguji
 1. Install Open SSH server  
 ![installopenssh](intsalasi-openssh-server.png)  
 Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jalankan **sudo apt-get update** terlerbih dahulu. Lalu jalankan **sudo apt-get install openssh-server**
