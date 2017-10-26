@@ -223,7 +223,7 @@ Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jal
    * **[DEFAULT]** sebagai penanda konfigurasi default untuk semua protocol
    * **ignoreip**: untuk mencegah file2ban melakukan banned jaringan lokal komputer
    * **bantime**: waktu tunggu setelah sebuah ip terkena banned
-   * **findtime**, maxretry: sebuah ip akan di-banned setelah melakukan **maxretry** percobaan dalam rentang waktu **findtime**
+   * **findtime**, **maxretry**: sebuah ip akan di-banned setelah melakukan **maxretry** percobaan dalam rentang waktu **findtime**
    
    ### Uji Penetrasi
    #### Hydra
