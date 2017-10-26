@@ -210,11 +210,11 @@ Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jal
     2. Menggunakan Ncrack
     ![hasil ncrack ubuntu desktop](hasil-ncrack-ubuntu-dektop.png)
     
-## Uji Penetrasi 2
-    ### instalasi fail2ban
-    ### Uji Penetrasi
-    #### Hydra
+## Uji Penetrasi 2  
+   ### instalasi fail2ban
+   ### Uji Penetrasi
+   #### Hydra
     
-    #### Ncrack
-    ![hasil ncrack ubuntu server fail2ban](hasil-ncrack-ubuntu-server-fail2ban.png)
+   #### Ncrack
+   ![hasil ncrack ubuntu server fail2ban](hasil-ncrack-ubuntu-server-fail2ban.png)
     
