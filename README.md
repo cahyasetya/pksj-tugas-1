@@ -212,9 +212,16 @@ Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jal
     
 ## Uji Penetrasi 2  
    ### instalasi fail2ban
+   1. Instal fail2ban melalui apt
+   ![instal fail2ban](instalasi-file2ban.png)
+   2. Konfigurasi
+   File2ban sudah memiliki konfigurasi default dengan nama **/etc/file2ban/jail.conf** namun file tersebut akan berubah apabila terdapat update. Untuk itu kita perlu file konfigurasi kita sendiri. Pertama kita copy file konfigurasi default dengan memberikan tanda comment di semua barisnya. Syntax:
+   ![copy konfigurasi](copy-konfigurasi-fail2ban.png)
+   3. Lakukan konfigurasi dengan menghilangkan tanda comment
+   
    ### Uji Penetrasi
    #### Hydra
-    
+   ![hasil hydra ubuntu server fail2ban](hasil-hydra-ubuntu-server-fail2ban.png)
    #### Ncrack
    ![hasil ncrack ubuntu server fail2ban](hasil-ncrack-ubuntu-server-fail2ban.png)
     
