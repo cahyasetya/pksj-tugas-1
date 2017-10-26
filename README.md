@@ -218,6 +218,12 @@ Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jal
    File2ban sudah memiliki konfigurasi default dengan nama **/etc/file2ban/jail.conf** namun file tersebut akan berubah apabila terdapat update. Untuk itu kita perlu file konfigurasi kita sendiri. Pertama kita copy file konfigurasi default dengan memberikan tanda comment di semua barisnya. Syntax:
    ![copy konfigurasi](copy-konfigurasi-fail2ban.png)
    3. Lakukan konfigurasi dengan menghilangkan tanda comment
+   ![setting file2ban](setting-file2ban.png)
+   sebagai contoh yang kita hilangkan tanda comment di atas adalah
+   * **[DEFAULT]** sebagai penanda konfigurasi default untuk semua protocol
+   * **ignoreip**: untuk mencegah file2ban melakukan banned jaringan lokal komputer
+   * **bantime**: waktu tunggu setelah sebuah ip terkena banned
+   * **findtime**, maxretry: sebuah ip akan di-banned setelah melakukan **maxretry** percobaan dalam rentang waktu **findtime**
    
    ### Uji Penetrasi
    #### Hydra
