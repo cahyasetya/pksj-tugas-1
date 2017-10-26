@@ -186,7 +186,14 @@ Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jal
 ![install hydra](install-hydra.png)
 
 2. Install Ncrack
-
+    - Download File Ncrack dari github   
+    ![download ncrack](1-instalasi-ncrack.png)  
+    - Jalankan **./Configure**
+    ![configure](2-instalasi-ncrack.png)
+    - Kemudian jalankan **make**
+    ![make](3-instalasi-ncrack.png)
+    - lalu jalankan **sudo make install** untuk menginstall ncrack
+    ![install](4-instalasi-ncrack.png)
 ## Uji Penetrasi 1
 1. Lakukan instalasi tools penetrasi
 2. Download wordlist. Wordlist adalah daftar kata-kata yang kita gunakan untuk untuk melakukan bruteforce. Daftar kata-kata tersebut nantinya akan bertindak sebagai password.
