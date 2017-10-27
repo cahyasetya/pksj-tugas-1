@@ -72,7 +72,7 @@ klik **Start** untuk memulai instalasi
 ![isi password](21.ubuntu-server-select-password.png)
 
 19. Konfimarasi Password Baru
-![konfirmasi password]()
+![konfirmasi password](22.ubuntu-server-konfirmasi-password.png)
 
 20. Apabila Password yang Kita Isikan Lemah, Kita Akan Mendapatkan Peringatan
 ![konfirmasi password lemah](23.ubuntu-server-konfirmasi-weak-pass.png)
