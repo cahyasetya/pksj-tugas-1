@@ -72,7 +72,7 @@ klik **Start** untuk memulai instalasi
 ![isi password](21.ubuntu-server-select-password.png)
 
 19. Konfimarasi Password Baru
-![konfirmasi password]()
+![konfirmasi password](22.ubuntu-server-konfirmasi-password.png)
 
 20. Apabila Password yang Kita Isikan Lemah, Kita Akan Mendapatkan Peringatan
 ![konfirmasi password lemah](23.ubuntu-server-konfirmasi-weak-pass.png)
@@ -177,9 +177,60 @@ Tunggu hingga proses instalasi selesai.
 ![reboot](langkah-19.png)
 Setelah proses instalasi selesai, reboot dan ubuntu desktop siap digunakan.
 
-## Instalasi Penguji
-1. Install Open SSH server  
+## Install Open SSH server  
 ![installopenssh](intsalasi-openssh-server.png)  
 Install OpenSSH-server pada ubuntu desktop yang ada di virtual mesin. Namun, jalankan **sudo apt-get update** terlerbih dahulu. Lalu jalankan **sudo apt-get install openssh-server**
- 
-2. Install Hydra pada komputer 
+
+## Instalasi Tools Penetrasi
+1. Install Hydra pada komputer
+![install hydra](install-hydra.png)
+
+2. Install Ncrack
+    - Download File Ncrack dari github   
+    ![download ncrack](1-instalasi-ncrack.png)  
+    - Jalankan **./Configure**
+    ![configure](2-instalasi-ncrack.png)
+    - Kemudian jalankan **make**
+    ![make](3-instalasi-ncrack.png)
+    - lalu jalankan **sudo make install** untuk menginstall ncrack
+    ![install](4-instalasi-ncrack.png)
+    
+## Uji Penetrasi 1
+1. Lakukan instalasi tools penetrasi
+2. Download wordlist. Wordlist adalah daftar kata-kata yang kita gunakan untuk untuk melakukan bruteforce. Daftar kata-kata tersebut nantinya akan bertindak sebagai password.
+3. Lakukan pengujian penetrasi
+    ### Penetrasi Ubuntu Server
+    1. Menggunakan Hydra
+    ![hasil hydra ubuntu server](hasil-hydra-ubuntu-server.png)
+    2. Menggunakan Ncrack
+    ![hasil ncrack ubuntu server](hasil-ncrack-ubuntu-server.png)
+    ### Penetrasi Ubuntu Desktop
+    1. Menggunakan Hydra
+    ![hasil hydra ubuntu desktop](hasil-hydra-ubuntu-desktop.png)
+    2. Menggunakan Ncrack
+    ![hasil ncrack ubuntu desktop](hasil-ncrack-ubuntu-dektop.png)
+    
+## Uji Penetrasi 2  
+   ### instalasi fail2ban
+   1. Instal fail2ban melalui apt
+   ![instal fail2ban](instalasi-file2ban.png)
+   2. Konfigurasi
+   File2ban sudah memiliki konfigurasi default dengan nama **/etc/file2ban/jail.conf** namun file tersebut akan berubah apabila terdapat update. Untuk itu kita perlu file konfigurasi kita sendiri. Pertama kita copy file konfigurasi default dengan memberikan tanda comment di semua barisnya. Syntax:
+   ![copy konfigurasi](copy-konfigurasi-fail2ban.png)
+   3. Lakukan konfigurasi dengan menghilangkan tanda comment
+   ![setting file2ban](setting-file2ban.png)
+   sebagai contoh yang kita hilangkan tanda comment di atas adalah
+   * **[DEFAULT]** sebagai penanda konfigurasi default untuk semua protocol
+   * **ignoreip**: untuk mencegah file2ban melakukan banned jaringan lokal komputer
+   * **bantime**: waktu tunggu setelah sebuah ip terkena banned
+   * **findtime**, **maxretry**: sebuah ip akan di-banned setelah melakukan **maxretry** percobaan dalam rentang waktu **findtime**
+   
+   ### Uji Penetrasi
+   #### Hydra
+   ![hasil hydra ubuntu server fail2ban](hasil-hydra-ubuntu-server-fail2ban.png)
+   #### Ncrack
+   ![hasil ncrack ubuntu server fail2ban](hasil-ncrack-ubuntu-server-fail2ban.png)
+    
+
+## Kesimpulan dan Saran
+SSH dapat dibobol menggunakan hydra maupun ncrack namun dapat dicegah dengan menggunakan fail2ban
