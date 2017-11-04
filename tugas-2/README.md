@@ -73,3 +73,6 @@ Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
 2. Hasil Scanning
 ![hasil scanning](hasil_scanning.png)
 ## Exploit menggunakan sqlmap
+### LeagueManager
+Berdasarkan tautan https://www.exploit-db.com/exploits/37182/ , Pada plugin leaguemanager versi 3.9.11 terdapat bug, salah satunya pada parameter league_id yang tidak diamankan sehingga dimungkinkan sql injection.
+![hasil eksploit](sqlmap_leagumemanager.png)
