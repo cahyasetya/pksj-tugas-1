@@ -57,3 +57,9 @@
 
 Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
 ![plugin terpasang](22_plugin_berhasil_diinstal.png)
+
+## Instalasi Plugin
+
+## Uji Penetrasi
+## Scanning menggunakan wpscan
+## Exploit menggunakan sqlmap
