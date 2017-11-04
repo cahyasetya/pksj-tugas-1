@@ -59,6 +59,12 @@ Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
 ![plugin terpasang](22_plugin_berhasil_diinstal.png)
 
 ## Instalasi Plugin
+1. Pastikan komputer kita sudah terinstall git. Apabila belum kita dapat menginstalnya dengan mengetikkan `sudo apt-get install git`
+2. Install dependency dengan mengetikkan `sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential
+`
+3. Clone repo wpscan dengan mengetikkan `git clone https://github.com/wpscanteam/wpscan.git`
+4. Masukke folder wpscan yang sudah kita clone
+5. Install bundler dengan mengetikkan `sudo gem install bundler && bundle install --without test`
 
 ## Uji Penetrasi
 ## Scanning menggunakan wpscan
