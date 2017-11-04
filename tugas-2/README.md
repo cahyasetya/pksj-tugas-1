@@ -68,4 +68,8 @@ Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
 
 ## Uji Penetrasi
 ## Scanning menggunakan wpscan
+1. Scanning
+![scanning](scanning.png)
+2. Hasil Scanning
+![hasil scanning](hasil_scanning.png)
 ## Exploit menggunakan sqlmap
