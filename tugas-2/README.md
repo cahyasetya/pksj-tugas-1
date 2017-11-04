@@ -54,3 +54,6 @@
 ![aktifkan plugin](20_aktifkan_plugin_player.PNG)
 8. Instalasi plugin akan dimulai.
 ![instalasi plugin](21_instalasi_player.PNG)
+
+Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
+![plugin terpasang](22_plugin_berhasil_diinstal.png)
