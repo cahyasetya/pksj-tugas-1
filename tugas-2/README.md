@@ -58,16 +58,21 @@
 Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
 ![plugin terpasang](22_plugin_berhasil_diinstal.png)
 
-## Instalasi Plugin
+## Instalasi Tools Penetrasi
+### Instalasi WPSCAN  
 1. Pastikan komputer kita sudah terinstall git. Apabila belum kita dapat menginstalnya dengan mengetikkan `sudo apt-get install git`
-2. Install dependency dengan mengetikkan `sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential
-`
+2. Install dependency dengan mengetikkan `sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev`
+![install-libcurl](install-libcurl14.png)  
 3. Clone repo wpscan dengan mengetikkan `git clone https://github.com/wpscanteam/wpscan.git`
-4. Masukke folder wpscan yang sudah kita clone
-5. Install bundler dengan mengetikkan `sudo gem install bundler && bundle install --without test`
+![clone-wpscan](clone-wpscan.png)
+4. Install ruby dengan mengetikkan `sudo apt-get intsall ruby` tapi, karena saya menggunakan Ubuntu 16.04 bisa cukup dengan mengetikkan `sudo apt install ruby`  
+![install-ruby](install-ruby.png)  
+5. Masukke folder wpscan yang sudah kita clone
+6. Install bundler dengan mengetikkan `sudo gem install bundler && bundle install --without test`
+![install-gem](install-gem.png)  
 
 ## Uji Penetrasi
-## Scanning menggunakan wpscan
+### Scanning menggunakan wpscan
 1. Scanning
 ![scanning](scanning.png)
 2. Hasil Scanning
