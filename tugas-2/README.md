@@ -70,6 +70,13 @@ Apabila plugin telah terpasang tampilan laman plugin akan seperti dibawah ini.
 5. Masukke folder wpscan yang sudah kita clone
 6. Install bundler dengan mengetikkan `sudo gem install bundler && bundle install --without test`
 ![install-gem](install-gem.png)  
+### Instalasi SQLMAP
+Ada 2 cara untuk menginstall sqlmap
+1. clone github dari sqlmap dengan mengetikkan `git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev` **sqlmap-dev** disini, saya ingin clone folder dari github tersebut ke folder bernama **sqlmap-dev**  
+![download-sqlmap](download-sqlmap.png)  
+Setelah tahap clone, pindah direktori pada folder sqlmap anda, lalu bisa dijalankan dengan mengetikkan `python sqlmap.py`  
+2. Install langsung dengan mengetikkan `sudo apt-get install sqlmap`  
+![install-sqlmap](install-sqlmap.png)  
 
 ## Uji Penetrasi
 ### Scanning menggunakan wpscan
