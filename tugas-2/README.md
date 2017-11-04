@@ -1,4 +1,4 @@
-#Tugas 2
+# Tugas 2
 
 ## Instalasi Wordpress
 1. Download Wordpress dari laman [Wordpress](https://wordpress.org/)  
@@ -17,3 +17,40 @@
 ![instalasi selesai](5_selesai_installasi_wordpress.PNG)
 8. Setelah instalasi selesai apabila kita ingin masuk ke dashboard admin, kita bisa mengakses ke endpoint wp-login. contoh "http://alamatwordpress.com/wp-login.php"
 ![login](wp-login.PNG)
+9. Apabila berhasil login kita akan masuk ke dashboard wordpress
+![dashboard wordpress](7_dashboard.PNG)
+
+## Instalasi Plugin
+### Instalasi LeagueManager
+1. Cari leaguemanager.
+![cari leaguemanager](8_pencarian_plugin_leaguemanager.PNG)
+2. Pilih leaguemanager dan akan keluar popup dan pilih **Laman Plugin WordPress.org**
+![leaguemanager popup](9_leaguemanager_popup.PNG)
+3. Lalu kita akan diarahkan ke laman plugin pada wordpress. Pilih advanced view pada bagian kanan bawah.
+![kunjungi dashboard](10_dashboard_league_manager.png)
+4. Pada halaman baru yang muncul, pilih versi plugin yang terletak di bawah halaman.
+![pilih versi](11_select_version_leaguemanager.png)
+5. Selanjutnya download plugin akan dimulai.
+6. Setelah download selesai, kita unggah plugin ke situs kita.
+![upload plugin](12_upload_league_manager.PNG)
+7. Lalu aktifkan plugin.
+![aktifkan plugin](13_aktifkan_league_manager.PNG)
+8. Instalasi plugin akan dimulai.
+![instalasi plugin](14_instalasi_league_manager.PNG)
+
+### Instalasi WordPress Video Player
+1. Cari video player.
+![cari videoplayer](15_pencarian_video_player.PNG)
+2. Pilih WordPress Video Player dan akan keluar popup dan pilih **Laman Plugin WordPress.org**
+![player popup](16_video_player_popup.PNG)
+3. Lalu kita akan diarahkan ke laman plugin pada wordpress. Pilih advanced view pada bagian kanan bawah.
+![kunjungi dashboard](17_dashboard_video_player.png)
+4. Pada halaman baru yang muncul, pilih versi plugin yang terletak di bawah halaman.
+![pilih versi](18_select_version_video_player.PNG)
+5. Selanjutnya download plugin akan dimulai.
+6. Setelah download selesai, kita unggah plugin ke situs kita.
+![upload plugin](19_unggah_plugin_player.PNG)
+7. Lalu aktifkan plugin.
+![aktifkan plugin](20_aktifkan_plugin_player.PNG)
+8. Instalasi plugin akan dimulai.
+![instalasi plugin](21_instalasi_player.PNG)
